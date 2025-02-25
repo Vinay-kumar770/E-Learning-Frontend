@@ -22,7 +22,7 @@ const Rating: React.FC<RatingProps> = ({ rating, CourseId, edit }) => {
 
     AuthServices.Rating(form)
       .then((response) => {
-        console.log("Rating", response);
+        console.log("Rating", response, loading, edit);
         setLoading(false); // Reset loading state after the response
         alert("Your rating has successfully added");
       })

@@ -45,7 +45,7 @@ const Homepage: React.FC<HomepageProps> = ({
   const navigate = useNavigate();
 
   const [loading, setLoading] = useState<boolean>(true);
-  const [redirect, setRedirect] = useState<string | null>(null);
+  const [redirect] = useState<string | null>(null);
 
   useEffect(() => {
     const form = new FormData();
