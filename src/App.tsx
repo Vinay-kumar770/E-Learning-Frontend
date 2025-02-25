@@ -21,7 +21,7 @@ import ForgotPasswordotp from "./Pages/Auth/Forms/ForgotPassword/ForgotPassOtp";
 import Profile from "./Pages/Profile/Profile";
 
 const App: React.FC = () => {
-  // const events = ["Hackathon", "Job", "Interview"];
+  // const events = ["Hackathon", "Job", " Interview"];
   return (
     <GoogleOAuthProvider
       clientId={import.meta.env.VITE_APP_GOOGLE_API_KEY as string}
